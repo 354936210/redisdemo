@@ -22,7 +22,7 @@ pom.xml
 */
 public class SendSms {
     public static void main(String[] args) {
-        DefaultProfile profile = DefaultProfile.getProfile("cn-hangzhou", "LTAI6Md6qC9G9Ifz", "noRKKTFSYSanUscj7LZ9lD8KJuEptO");
+        DefaultProfile profile = DefaultProfile.getProfile("", "", "");
         IAcsClient client = new DefaultAcsClient(profile);
 
         CommonRequest request = new CommonRequest();
